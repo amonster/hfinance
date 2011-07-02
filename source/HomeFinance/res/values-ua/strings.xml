@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Домашні фінанси SMS</string>
+	<string name="prompt_category">Оберіть категорію</string>
+	<string name="prompt_account">Оберіть рахунок</string>
+	<string name="prompt_currency">Оберіть валюту</string>
+	<string name="title_add_expense">Внесення витрати</string>
+	<string name="title_edit_expense">Редагування витрати</string>
+	<string name="title_add_income">Внесення доходу</string>
+	<string name="title_edit_income">Редагування доходу</string>
+	<string name="title_add_transfer">Внесення трансферту</string>
+	<string name="title_edit_transfer">Редагування трансферту</string>
+	<string name="title_send_sms">Відправка SMS</string>
+	<string name="title_manage_accounts">Домашні фінанси - Управління рахунками</string>
+	<string name="title_manage_income_cats">ДФ - Управління категоріями доходів</string>
+	<string name="title_manage_expense_cats">ДФ - Управління категоріями витрат</string>
+	<string name="title_preferences">Налаштування</string>
+	<string name="btn_add_expense">Витрата</string>
+	<string name="btn_add_income">Дохід</string>
+	<string name="btn_add_transfer">Трансферт</string>
+	<string name="btn_send_sms">Відправити SMS</string>
+	<string name="label_account">Рахунок:</string>
+	<string name="label_amount">Сума:</string>
+	<string name="label_comment">Коментар:</string>
+	<string name="label_currency">Валюта:</string>
+	<string name="label_category">Категорія:</string>
+	<string name="label_debit_from">Списання з рахунку:</string>
+	<string name="label_credit_to">Зарахування на рахунок:</string>
+	<string name="sms_gate">+380508562233</string>
+	<string name="toast_sent">SMS-повідомлення відправлено</string>
+	<string name="toast_added_income">Дохід успішно внесено</string>
+	<string name="toast_added_expense">Витрату успішно внесено</string>
+	<string name="toast_added_transfer">Трансферт успішно внесено</string>
+	<string name="toast_edited_income">Дохід успішно збережено</string>
+	<string name="toast_edited_expense">Витрату успішно збережена</string>
+	<string name="toast_edited_transfer">Трансферт успішно збережено</string>
+	<string name="toast_deleted_income">Дохід успішно вилучено</string>
+	<string name="toast_deleted_expense">Витрату успішно вилучено</string>
+	<string name="toast_deleted_transfer">Трансферт успішно вилучено</string>
+	<string name="toast_added_account">Новий рахунок додано</string>
+	<string name="toast_edited_account">Рахунок перейменовано</string>
+	<string name="toast_deleted_accounts">Вибрані рахунки видалено</string>
+	<string name="toast_added_category">Нову категорію додано ​​</string>
+	<string name="toast_edited_category">Категорію перейменовано</string>
+	<string name="toast_deleted_categories">Вибрані категорії видалені</string>
+	<string name="toast_empty_input">Введіть назву</string>
+	<string name="toast_empty_comment">Введіть коментар</string>
+	<string name="toast_empty_amount">Введіть суму</string>
+
+	<string name="help_add_expense">Стрічка активності порожня. Натисніть сюди для
+		внесення
+		нової витрати або натисніть на іконку \"Витрата\".</string>
+	<string name="help_no_sms">Жодної операції для відправки. Щоб швидко внести
+		нову витрату натисніть сюди.</string>
+	<string name="help_sms_topic">Для чого відправляються SMS?</string>
+	<string name="help_sms_content">За допомогою коротких повідомлень ви можете
+		відправити
+		свої дані на сайт home.finance.ua. Щоб користуватися цією
+		можливістю ви повинні мати там акаунт, а також
+		ваш номер телефону має бути вказаний в налаштуваннях SMS
+		сервісу.\n\n
+		* Вартість повідомлення стягується оператором відповідно до
+		вашого тарифного плану.\n\n
+		** Номер SMS шлюзу +380508562233
+</string>
+	<string name="help_addcats_topic">Як правильно вносити категорії і рахунки?</string>
+	<string name="help_addcats_content">У цій версії програми немає можливості отримання
+		рахунків та категорій з сервісу home.finance.ua, тому їх
+		потрібно
+		внести вручну. Зробити це потрібно лише один раз.
+		\n\n * Для коректної роботи SMS сервісу, категорії і
+		рахунки повинні бути вказані у тому
+		ж порядку, що і на сайті.
+</string>
+	<string name="add">Внести</string>
+	<string name="add2">Додати</string>
+	<string name="update">Змінити</string>
+	<string name="save">Зберегти</string>
+	<string name="delete">Видалити</string>
+	<string name="cancel">Скасувати</string>
+	<string name="preferences">Налаштування</string>
+	<string name="about">Про програму</string>
+	<string name="help">Допомога</string>
+	<string name="whatfore">Для чого?</string>
+	<string name="how">Як правильно?</string>
+	<string name="site">Відвідати сайт</string>
+	<string name="blog">Читати блог</string>
+	<string name="tweet">Твіт @denysnik</string>
+
+	<string name="pref_accounts">Рахунки</string>
+	<string name="pref_accounts_summary">Перелік рахунків</string>
+	<string name="pref_expense_cats">Категорії витрат</string>
+	<string name="pref_expense_cats_summary">Створення, редагування та видалення категорій
+	</string>
+	<string name="pref_income_cats">Категорії доходів</string>
+	<string name="pref_income_cats_summary">Створення, редагування та видалення категорій
+	</string>
+
+	<string name="cb_clear_sms">Очистити стрічку активності після відправки
+	</string>
+
+	<string name="text_about">
+		Домашні Фінанси SMS - це простий та зручний клієнт
+		для сервісу
+		home.finance.ua. За допомогою клієнта ви можете враховувати свої витрати
+		або
+		інші фінансові операції зберігаючи їх на телефоні. В будь-який
+		зручний час ви можете відправити ці дані на сайт
+		home.finance.ua через SMS-повідомлення.\n\n
+		http://home.finance.ua - Internet-система для обліку, аналізу та плануванню особистих та сімейних фінансів.
+</string>
+
+	<string-array name="entries_accounts_default">
+		<item>гаманець</item>
+		<item>зелена Visa</item>
+		<item>депозит</item>
+	</string-array>
+
+	<string-array name="entries_category_expense_default">
+		<item>харчування</item>
+		<item>житло</item>
+		<item>одяг</item>
+		<item>спорт</item>
+		<item>розваги</item>
+		<item>авто</item>
+	</string-array>
+
+	<string-array name="entries_category_income_default">
+		<item>зарплата</item>
+		<item>послуги</item>
+		<item>депозити</item>
+	</string-array>
+
+	<string-array name="entries_currency">
+		<item>UAH</item>
+		<item>USD</item>
+		<item>EUR</item>
+		<item>RUB</item>
+	</string-array>
+
+	<string-array name="entries_currency_sign">
+		<item>грн</item>
+		<item>$</item>
+		<item>€</item>
+		<item>р</item>
+	</string-array>
+</resources>

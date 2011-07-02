@@ -1,0 +1,127 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<resources>
+	<string name="app_name">Home Finances SMS</string>
+	<string name="prompt_category">Select a category</string>
+	<string name="prompt_account">Select an account</string>
+	<string name="prompt_currency">Select a currency</string>
+	<string name="title_add_expense">Add Expense</string>
+	<string name="title_edit_expense">Edit Expense</string>
+	<string name="title_add_income">Add Income</string>
+	<string name="title_edit_income">Edit Income</string>
+	<string name="title_add_transfer">Add Transfer</string>
+	<string name="title_edit_transfer">Edit Transfer</string>
+	<string name="title_send_sms">Send SMS</string>
+	<string name="title_manage_accounts">Home Finances - Accounts Management</string>
+	<string name="title_manage_income_cats">Home Finances - Income Categories Managment</string>
+	<string name="title_manage_expense_cats">Home Finances - Expense Categories Managment</string>
+	<string name="title_preferences">Settings</string>
+	<string name="btn_add_expense">Expense</string>
+	<string name="btn_add_income">Income</string>
+	<string name="btn_add_transfer">Transfer</string>
+	<string name="btn_send_sms">Send SMS</string>
+	<string name="label_account">Account:</string>
+	<string name="label_amount">Amount:</string>
+	<string name="label_comment">Comment:</string>
+	<string name="label_currency">Currency:</string>
+	<string name="label_category">Category:</string>
+	<string name="label_debit_from">Withdrawal:</string>
+	<string name="label_credit_to">Enrollment:</string>
+	<string name="sms_gate">+380508562233</string>
+	<string name="toast_sent">Messages has been sent</string>
+	<string name="toast_added_income">Income was successfully added</string>
+	<string name="toast_added_expense">Expense was successfully added</string>
+	<string name="toast_added_transfer">Transfer was successfully added</string>
+	<string name="toast_edited_income">Income was successfully saved</string>
+	<string name="toast_edited_expense">Expense was successfully saved</string>
+	<string name="toast_edited_transfer">Transfer was successfully saved</string>
+	<string name="toast_deleted_income">Income was successfully deleted</string>
+	<string name="toast_deleted_expense">Expense was successfully deleted</string>
+	<string name="toast_deleted_transfer">Transfer was successfully deleted</string>
+	<string name="toast_added_account">New account was added</string>
+	<string name="toast_edited_account">Account renamed</string>
+	<string name="toast_deleted_accounts">Selected accounts were deleted</string>
+	<string name="toast_added_category">New category was added</string>
+	<string name="toast_edited_category">Category renamed</string>
+	<string name="toast_deleted_categories">Selected categories deleted</string>
+	<string name="toast_empty_input">Enter title</string>
+	<string name="toast_empty_comment">Please enter a comment</string>
+	<string name="toast_empty_amount">Please enter amount</string>
+	<string name="help_add_expense">Operations history is empty. Tap here to add
+		a new expense, or click on the \"Add Expense\" button.</string>
+	<string name="help_no_sms">No transactions to be sent. To quickly add a
+		new expense, tap here.</string>
+	<string name="help_sms_topic">What for to send SMS?</string>
+	<string name="help_sms_content">Short messages are used to register your transactions in home.finance.ua service. To use this
+		possibility you should have an account at home.finance.ua. Please make sure your phone number should be connected to the account in SMS service settings.\n\n
+		* SMS cost charged by the operator in accordance with your tariff plan.\n\n
+		** SMS gateway number is +380508562233 
+	</string>
+	<string name="help_addcats_topic">How to add the category and accounts?</string>
+	<string name="help_addcats_content">In this version of the app accounts and categories should be configured manually.\n\n
+		* If you are planning to use SMS service, please make sure categories and accounts are listed in the same order as on the web site.
+	</string>
+	<string name="add">Add</string>
+	<string name="add2">Add</string>
+	<string name="update">Edit</string>
+	<string name="save">Save</string>
+	<string name="delete">Delete</string>
+	<string name="cancel">Cancel</string>
+	<string name="preferences">Settings</string>
+	<string name="about">About</string>
+	<string name="help">Help</string>
+	<string name="whatfore">What for?</string>
+	<string name="how">How?</string>
+	<string name="site">Visit website</string>
+	<string name="blog">Read my blog</string>
+	<string name="tweet">Tweet @denysnik</string>
+
+	<string name="pref_accounts">Accounts</string>
+	<string name="pref_accounts_summary">Account Management</string>
+	<string name="pref_expense_cats">Expense Categories</string>
+	<string name="pref_expense_cats_summary">Create, edit and delete categories</string>
+	<string name="pref_income_cats">Income categroies</string>
+	<string name="pref_income_cats_summary">Create, edit and delete categories</string>
+	<string name="cb_clear_sms">Clear activities history after sending</string>
+
+	<string name="text_about">
+		Home Finances SMS - is a simple client and handy client for the home.finance.ua personal accounting service.
+		Using this app, you can register your expenses or other financial transactions and save them on you phone. 
+		You may send your transactions to the home.finance.ua via SMS.\n\n
+		home.finance.ua is an Internet-system for personal or family budget accounting, analysis and planning.
+	</string>
+
+	<string-array name="entries_accounts_default">
+		<item>wallet</item>
+		<item>green Visa</item>
+		<item>deposit</item>
+	</string-array>
+
+	<string-array name="entries_category_expense_default">
+		<item>food</item>
+		<item>housing</item>
+		<item>clothing</item>
+		<item>sports</item>
+		<item>entertainment</item>
+		<item>car</item>
+	</string-array>
+
+	<string-array name="entries_category_income_default">
+		<item>salary</item>
+		<item>services</item>
+		<item>interest money</item>
+	</string-array>
+
+	<string-array name="entries_currency">
+		<item>UAH</item>
+		<item>USD</item>
+		<item>EUR</item>
+		<item>RUB</item>
+	</string-array>
+
+	<string-array name="entries_currency_sign">
+		<item>grn</item>
+		<item>$</item>
+		<item>€</item>
+		<item>rub</item>
+	</string-array>
+</resources>

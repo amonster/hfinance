@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.am.hfinance" android:versionCode="2" android:versionName="1.1" android:installLocation="preferExternal">
+	<uses-sdk android:minSdkVersion="4" android:targetSdkVersion="8" />
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name"
+		android:name="HomeFinanceApplication">
+		<activity android:name=".ui.HomeActivity" android:label="@string/app_name"
+			android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".ui.AddExpenseActivity"
+			android:label="@string/title_add_expense" android:screenOrientation="portrait"
+			 android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustPan">
+		</activity>
+		<activity android:name=".ui.AddIncomeActivity" android:label="@string/title_add_income"
+			android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustPan">
+		</activity>
+		<activity android:name=".ui.AddTransferActivity"
+			android:label="@string/title_add_transfer" android:screenOrientation="portrait"
+			 android:theme="@android:style/Theme.NoTitleBar"
+			android:windowSoftInputMode="adjustPan">
+		</activity>
+		<activity android:name=".ui.SendSmsActivity" android:label="@string/title_send_sms"
+			android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+		<activity android:name=".ui.ManageAccountsActivity"
+			android:label="@string/title_manage_accounts"
+			android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize">
+		</activity>
+		<activity android:name=".ui.ManageExpenseCatsActivity"
+			android:label="@string/title_manage_expense_cats"
+			android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize">
+		</activity>
+		<activity android:name=".ui.ManageIncomeCatsActivity"
+			android:label="@string/title_manage_income_cats"
+			android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize">
+		</activity>
+		<activity android:name=".ui.PreferenceActivity"
+			android:label="@string/title_preferences" android:screenOrientation="portrait"
+			android:windowSoftInputMode="adjustResize">
+		</activity>
+		<activity android:name=".ui.AboutActivity"
+			android:label="@string/about" android:screenOrientation="portrait"
+			android:windowSoftInputMode="adjustResize" android:theme="@android:style/Theme.NoTitleBar">
+		</activity>		
+		<activity android:name=".ui.HelpActivity"
+			android:label="@string/help" android:screenOrientation="portrait"
+			android:windowSoftInputMode="adjustResize" android:theme="@android:style/Theme.NoTitleBar">
+		</activity>		
+	</application>
+	<uses-permission android:name="android.permission.READ_SMS" />
+	<uses-permission android:name="android.permission.SEND_SMS" />
+	<uses-permission android:name="android.permission.WRITE_SMS" />
+</manifest>

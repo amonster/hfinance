@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:background="@color/white">
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView android:layout_width="fill_parent"
+			style="@style/title_text" android:text="@string/app_name" />
+		<ImageView android:id="@+id/title" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" style="@style/title_logo" />
+	</RelativeLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_weight="1"
+		android:orientation="vertical" android:gravity="center">
+		<ListView android:id="@+id/list_activities"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:visibility="gone" android:cacheColorHint="@color/white" />
+		<TextView android:id="@+id/help_add_expense"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			style="@style/hint" android:text="@string/help_add_expense" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="@drawable/bg" android:layout_marginBottom="6dp">
+		<Button android:id="@+id/btn_add_expense" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:text="@string/btn_add_expense" android:drawableTop="@drawable/expense"
+			android:background="@null" android:maxWidth="48dp" />
+		<Button android:id="@+id/btn_add_transfer"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1" android:text="@string/btn_add_transfer"
+			android:drawableTop="@drawable/transfer" android:background="@null"
+			android:maxWidth="48dp" />
+		<Button android:id="@+id/btn_add_income" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:text="@string/btn_add_income" android:drawableTop="@drawable/income"
+			android:background="@null" android:maxWidth="48dp" />
+		<Button android:id="@+id/btn_synchronize" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:text="@string/btn_send_sms" android:drawableTop="@drawable/sms"
+			android:background="@null" android:maxWidth="48dp" />
+	</LinearLayout>
+
+</LinearLayout>

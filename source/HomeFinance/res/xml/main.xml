@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:summary="@string/pref_accounts_summary" android:title="@string/pref_accounts" android:key="accounts">
+    </Preference>
+    <Preference android:key="expense_cats" android:summary="@string/pref_expense_cats_summary" android:title="@string/pref_expense_cats"></Preference>
+    <Preference android:key="income_cats" android:summary="@string/pref_income_cats_summary" android:title="@string/pref_income_cats"></Preference>
+</PreferenceScreen>

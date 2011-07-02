@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:constantSize="true" >
+    <item
+        android:drawable="@drawable/transfer_pressed"
+        android:state_pressed="true"
+        android:state_enabled="true" />
+    <item
+        android:drawable="@drawable/transfer_focused"
+        android:state_focused="true"
+        android:state_enabled="true" />        
+    <item
+        android:drawable="@drawable/transfer_default"
+        android:state_enabled="true" />
+</selector>

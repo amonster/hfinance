@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@color/white" android:orientation="vertical">
+	<RelativeLayout android:id="@+id/title_bar" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView android:id="@+id/title" android:layout_width="fill_parent"
+			style="@style/title_text" />
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" style="@style/title_logo" />
+	</RelativeLayout>	
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_weight="1" android:layout_below="@+id/title_bar" android:layout_margin="5dp">
+		<TableLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" style="@style/group">
+			<TableRow android:gravity="center_vertical">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" style="@style/label"
+					android:text="@string/label_comment" />
+				<EditText android:id="@+id/text_comment"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_weight="1" android:text="" android:lines="2"
+					android:gravity="top" android:inputType="textShortMessage|textMultiLine"
+					android:imeOptions="actionNext" android:maxLength="50" />
+			</TableRow>
+			<TableRow android:gravity="center_vertical">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" style="@style/label"
+					android:text="@string/label_amount" />
+				<EditText android:id="@+id/text_amount"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_weight="1" android:singleLine="true"
+					android:inputType="numberDecimal" android:imeOptions="actionDone"
+					android:maxLength="10" />
+			</TableRow>
+			<TableRow android:gravity="center_vertical">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" style="@style/label"
+					android:text="@string/label_currency" />
+				<Spinner android:id="@+id/list_currency"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_weight="1" android:prompt="@string/prompt_currency"
+					android:entries="@array/entries_currency" />
+			</TableRow>
+			<TableRow android:gravity="center_vertical">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" style="@style/label"
+					android:text="@string/label_account" />
+				<Spinner android:id="@+id/list_account"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_weight="1" android:prompt="@string/prompt_account" />
+			</TableRow>
+			<TableRow android:gravity="center_vertical">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" style="@style/label"
+					android:text="@string/label_category" />
+				<Spinner android:id="@+id/list_category"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_weight="1" android:prompt="@string/prompt_category" />
+			</TableRow>
+		</TableLayout>
+	</ScrollView>
+	<Button android:id="@+id/btn_add" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/add" />
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:orientation="vertical" android:padding="10dp">
+	<TextView android:id="@+id/item_date" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="right"
+		android:singleLine="true" android:textColor="@color/black" android:text="10/04/2011" />
+	<LinearLayout android:id="@+id/item_comment_amount"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_below="@+id/item_date">
+		<TextView android:id="@+id/item_comment"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1" android:layout_alignLeft="@+id/item_amount"
+			android:singleLine="true" android:textColor="@color/black"
+			android:textSize="18sp" android:text="Продукты в супермаркете" />
+		<TextView android:id="@+id/item_amount_debit" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:singleLine="true"
+			android:textSize="18sp" android:textColor="@color/red"
+			android:text="-$10" />
+		<TextView android:id="@+id/item_amount_credit" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:singleLine="true"
+			android:textSize="18sp" android:textColor="@color/green"
+			android:text=" (+79грн)" />			
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@+id/item_comment_amount">
+		<TextView android:id="@+id/item_account_debit"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1" android:gravity="right" android:singleLine="true"
+			android:text="кошелёк" />
+		<TextView android:id="@+id/item_account_credit"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:gravity="right" android:singleLine="true"
+			android:text=" (кошелёк)" />
+	</LinearLayout>
+</LinearLayout>
