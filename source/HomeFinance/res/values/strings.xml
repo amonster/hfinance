@@ -15,9 +15,12 @@
 -->
 <resources>
 	<string name="app_name">Home Finances SMS</string>
+	<string name="progress_signin">Signing in...</string>
+	
 	<string name="prompt_category">Select a category</string>
 	<string name="prompt_account">Select an account</string>
 	<string name="prompt_currency">Select a currency</string>
+	
 	<string name="title_add_expense">Add Expense</string>
 	<string name="title_edit_expense">Edit Expense</string>
 	<string name="title_add_income">Add Income</string>
@@ -40,6 +43,8 @@
 	<string name="label_category">Category:</string>
 	<string name="label_debit_from">Withdrawal:</string>
 	<string name="label_credit_to">Enrollment:</string>
+	<string name="label_email">Email:</string>
+	<string name="label_password">Password:</string>
 	<string name="sms_gate">+380508562233</string>
 	<string name="toast_sent">Messages has been sent</string>
 	<string name="toast_added_income">Income was successfully added</string>
@@ -60,6 +65,9 @@
 	<string name="toast_empty_input">Enter title</string>
 	<string name="toast_empty_comment">Please enter a comment</string>
 	<string name="toast_empty_amount">Please enter amount</string>
+	<string name="toast_signin_failure">Failed to sign in. Please check entered email and password are correct.</string>
+	<string name="toast_signin_network_error">Failed to sign in. Please check your Internet connection and try again later.</string>
+	<string name="toast_signin_technical_issue">Failed to sign in due to the technical issue. Please try again later.</string>
 	<string name="help_add_expense">Operations history is empty. Tap here to add
 		a new expense, or click on the \"Add Expense\" button.</string>
 	<string name="help_no_sms">No transactions to be sent. To quickly add a
@@ -83,6 +91,7 @@
 	<string name="preferences">Settings</string>
 	<string name="about">About</string>
 	<string name="help">Help</string>
+	<string name="login">Login</string>
 	<string name="whatfore">What for?</string>
 	<string name="how">How?</string>
 	<string name="site">Visit website</string>
